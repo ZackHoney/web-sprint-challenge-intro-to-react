@@ -3,7 +3,7 @@ import axios from 'axios';
 import Character from './components/Character';
 import './App.css';
 
-const App = () => {
+function App() {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
