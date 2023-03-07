@@ -28,7 +28,7 @@ const StyledCharacter = styled.div`
 const Character = (props) => {
     return (
         <StyledCharacter className='character-wrapper'>
-            <h3>{props.people.name}</h3>
+           <h3>{props.data.name}</h3>
         </StyledCharacter>
     )
 }
