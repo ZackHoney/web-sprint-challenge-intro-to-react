@@ -1,20 +1,37 @@
 // Write your Character component here
 import React from 'react';
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import "./App.css";
+import styled from 'styled-components';
+
+
+const StyledCharacter = styled.div`
 
 
 
 
-function Character(props) {
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Character = (props) => {
     return (
-        <div className='container'>
-        
-
-        </div>
+        <StyledCharacter className='character-wrapper'>
+            <h3>{props.people.name}</h3>
+        </StyledCharacter>
     )
 }
+
 
 export default Character;
