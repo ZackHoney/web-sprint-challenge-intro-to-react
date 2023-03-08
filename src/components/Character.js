@@ -2,7 +2,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
 const StyledCharacter = styled.div`
 display: flex;
 flex-direction: column;
@@ -22,7 +21,7 @@ const Character = (props) => {
            <h3>{props.data.name}</h3>
         </StyledCharacter>
     )
-}
+};
 
 
 export default Character;
