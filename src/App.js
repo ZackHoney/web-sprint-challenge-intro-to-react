@@ -3,6 +3,7 @@ import axios from 'axios';
 import Character from './components/Character';
 import './App.css';
 
+
 function App() {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -24,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      {data.map(character => <li>{character}</li> && <Character key={data.name} data={character} />)}
+      {data.map(character => character && <Character key={data.name} data={character} />)}
     </div>
   );
 }

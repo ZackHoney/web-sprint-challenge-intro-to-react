@@ -8,7 +8,7 @@ flex-direction: column;
 align-items: center;
 
 h3 {
-    color: ${pr => pr.theme.thirdColor}
+    color: ${pr => pr.theme.primaryColor}
 }
 
 
