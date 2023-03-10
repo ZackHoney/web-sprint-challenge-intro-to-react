@@ -18,7 +18,7 @@ h3 {
 const Character = (props) => {
     return (
         <StyledCharacter className='character-wrapper'>
-           <h3>{props.data.name}</h3>
+        {props.data.name}
         </StyledCharacter>
     )
 };
