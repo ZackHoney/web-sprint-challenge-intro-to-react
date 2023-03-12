@@ -8,7 +8,10 @@ flex-direction: column;
 align-items: center;
 
 h3 {
+    display: flex;
+    font-size: 30px;
     color: ${pr => pr.theme.primaryColor}
+    
 }
 
 
@@ -18,7 +21,7 @@ h3 {
 const Character = (props) => {
     return (
         <StyledCharacter className='character-wrapper'>
-        {props.data.name}
+        <h3>{props.data.name}</h3>
         </StyledCharacter>
     )
 };
